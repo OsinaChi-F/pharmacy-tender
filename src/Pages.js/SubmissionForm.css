@@ -1,0 +1,76 @@
+/* Container for the form */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for headings */
+  h2 {
+    text-align: center;
+    color:#007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels for form fields */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input fields */
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  
+  /* Highlighting focused inputs */
+  input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Textarea styling */
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Error messages */
+  div[style*="color: red"] {
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: #e74c3c;
+  }
+  
+  /* Submit button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on the button */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Centering the form container */
+  div {
+    margin: 20px auto;
+  }
+  
