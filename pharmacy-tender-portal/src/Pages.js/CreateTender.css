@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: beige;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+label {
+  color: white;
+}
+input, select {
+  padding: 5px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="date"] {
+  color: black;
+}
+select {
+  color: black;
+}
