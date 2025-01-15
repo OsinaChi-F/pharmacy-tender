@@ -33,7 +33,7 @@ const Signup = () => {
     console.log("Signup successful:", formData);
 
     // Redirect to Login page upon successful signup
-    navigate("/login");
+    navigate("/");
   };
 
   return (

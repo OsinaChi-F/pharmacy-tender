@@ -3,31 +3,33 @@ import { useNavigate } from 'react-router-dom';
 import './Login.css'; // Import the CSS file for styling
 
 const Login = () => {
-  const [formData, setFormData] = useState({ email: '', password: '' });
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const navigate = useNavigate();
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
+  const handleLogin = (e) => {
     e.preventDefault();
-    // Add login logic here
-    console.log('Form submitted:', formData);
+    // Add your login logic here
+    // If login is successful, navigate to the dashboard
+    if (email === 'email' && password === 'password') {
+      navigate('/dashboard');
+    } else {
+      alert('Invalid credentials');
+    }
   };
+
+
 
   return (
     <div className="login-container">
       <div className="background-image"></div>
       <div className="login-form">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleLogin}>
           <div className="input">
             <input
               type="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
               required
             />
@@ -36,8 +38,8 @@ const Login = () => {
             <input
               type="password"
               name="password"
-              value={formData.password}
-              onChange={handleChange}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               placeholder="Enter your password"
               required
             />
