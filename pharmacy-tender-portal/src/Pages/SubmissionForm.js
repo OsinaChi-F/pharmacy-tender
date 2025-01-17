@@ -36,7 +36,7 @@ const SubmissionForm = () => {
 
   return (
     <div style={{ maxWidth: "600px", margin: "auto" }}>
-      <h2>Pharmacy Tender Submission Form</h2>
+      <h2>Submission Form</h2>
       <form onSubmit={formik.handleSubmit}>
         <label>
           Company Name:
