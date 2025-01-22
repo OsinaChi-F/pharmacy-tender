@@ -4,7 +4,12 @@ import './index.css';
 const Content = () => {
   return (
     <main>
-      <h1>Welcome to Lagos University Teaching Hospital Pharmacy Department</h1>
+       <div className="image-container">
+        <img src="/src/Components/Assets/luth-logomain-removebg.png" alt="Signup Banner" className="signup-banner" />
+      </div>
+    
+      
+    
     </main>
     
   );
