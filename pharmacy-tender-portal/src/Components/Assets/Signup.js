@@ -1,6 +1,5 @@
 import React, { useState } from "react"; 
 import "./LoginSignup.css";
-import "./index.css";
 import user_icon from "./user.png";
 import email_icon from "./email.png";
 import password_icon from "./padlock.png";
