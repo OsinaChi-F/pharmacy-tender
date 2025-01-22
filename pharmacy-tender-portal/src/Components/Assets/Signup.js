@@ -1,5 +1,6 @@
 import React, { useState } from "react"; 
 import "./LoginSignup.css";
+import signup_icon from"./luth-logomain-removebg.png";
 import user_icon from "./user.png";
 import email_icon from "./email.png";
 import password_icon from "./padlock.png";
@@ -37,12 +38,8 @@ const Signup = () => {
   };
 
   return (
-    <div className="header"> 
-      <div className="text">SignUp</div>
-      <div className="underline"></div>
-      <div className="image-container">
-        <img src="/src/Components/Assets/luth-logomain-removebg.png" alt="Signup Banner" className="signup-banner" />
-      </div>
+    <div className="container">
+     <div><img className="signup-banner" src={signup_icon} alt=""/></div>
       <form onSubmit={handleSubmit}>
         <div className="inputs">
           <div className="input">
