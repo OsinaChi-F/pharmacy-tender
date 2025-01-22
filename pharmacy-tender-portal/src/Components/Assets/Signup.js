@@ -1,5 +1,6 @@
 import React, { useState } from "react"; 
 import "./LoginSignup.css";
+import "./index.css";
 import user_icon from "./user.png";
 import email_icon from "./email.png";
 import password_icon from "./padlock.png";
@@ -40,8 +41,9 @@ const Signup = () => {
     <div className="header"> 
       <div className="text">SignUp</div>
       <div className="underline"></div>
-      <h1>Welcome to Lagos University Teaching Hospital</h1>
-      <h1>Pharmacy Department</h1>
+      <div className="image-container">
+        <img src="/src/Components/Assets/luth-logomain-removebg.png" alt="Signup Banner" className="signup-banner" />
+      </div>
       <form onSubmit={handleSubmit}>
         <div className="inputs">
           <div className="input">
