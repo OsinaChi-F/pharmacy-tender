@@ -196,7 +196,12 @@ button {
                 background-color: #f4f4f4;
                 border-radius: 5px;
               }
-               .image-container {
-                height: 20px;
-                width: 20px;
-               }
+              .image-container {
+                text-align: center;
+                margin-bottom: 20px;
+              }
+              
+              .signup-banner {
+                max-width: 20%;
+                height: 20%;
+              }

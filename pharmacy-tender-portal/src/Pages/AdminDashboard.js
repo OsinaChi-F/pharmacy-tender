@@ -48,8 +48,8 @@ const AdminDashboard = () => {
         <h2>Dashboard</h2>
         <ul>
           <li onClick={() => navigate("/tender-notice")}>Tender Notice</li>
-          <li onClick={() => navigate("/add-employee")}>Add Employee</li>
-          <li onClick={() => navigate("/employee")}>Employee Details</li>
+       
+         
           <li onClick={() => navigate("/submission-form")}>Submission Form</li>
           <li onClick={() => navigate("/vendor")}>Vendor</li>
         
