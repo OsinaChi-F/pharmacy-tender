@@ -11,7 +11,7 @@ const Login = () => {
     // Add your login logic here
     // If login is successful, navigate to the dashboard
     if (username === 'username' && password === 'password') {
-      navigate('/dashboard');
+      navigate('/src/Pages/AdminDashboard.js');
     } else {
       alert('Invalid credentials');
     }
