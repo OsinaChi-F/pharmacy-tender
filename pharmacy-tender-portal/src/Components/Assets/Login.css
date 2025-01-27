@@ -1,11 +1,12 @@
 .login-container {
     display: flex;
     height: 100vh;
+    background-image: url('./pharmacy.png');
   }
   
   .background-image {
     flex: 3;
-    background-image: url('./pharmacy.png');
+    
     background-size: cover;
     background-position: center;
   }

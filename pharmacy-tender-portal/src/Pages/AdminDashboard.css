@@ -1,14 +1,27 @@
+.admin-dashboard{
+    background: none;
+    background: #f0f0f0;
+}
+
 .sidebar{
     display: flex;
+    background-color: #f0f0f0;
+
 }
 .dashboard-container{
     display: flex;
+    background-color: #f0f0f0;
+    min-height: max-content;
+    overflow: hidden;
+    padding-top: 0%;
 }
 .chart-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
+    width: 100%;
+
 }
 
 .BarResponsiveContainer{
